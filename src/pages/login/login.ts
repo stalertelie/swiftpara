@@ -20,10 +20,14 @@ export class LoginPage {
 	@ViewChild('username') user;
 	@ViewChild('password') password;
 
+  splash = true;
+
+
   constructor(private alertCtrl: AlertController, private fire:AngularFireAuth,public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
+    setTimeout(() => this.splash = false, 4000);
     console.log('ionViewDidLoad LoginPage');
   }
 

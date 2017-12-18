@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { NavController, AlertController } from 'ionic-angular'; 
+import { NavController, AlertController } from 'ionic-angular';
 
 import { LoginPage } from '../login/login';
 import { RegisterPage } from '../register/register';
